@@ -1,19 +1,20 @@
 
-#menu {
+#Perso{
     background: rgb(232,213,138);
     background: linear-gradient(180deg, rgba(232,213,138,1) 0%, rgb(203, 168, 92) 50%, rgba(232,213,138,1) 100%);
     margin: 2em;
-    height: 85vh;
+    height: 92vh;
+    justify-items: center !important;
+    justify-content: center !important;
+    text-justify: auto;
 }
 
-#affichage {
+#Exp{
     background: rgb(255,255,255);
     background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(218,218,218,1) 49%, rgba(235,235,235,1) 100%);
     margin: 2em;
+    height: 83vh
 }
-
-
-
 
 /* ----------- blink effect ----------- */
 
@@ -21,22 +22,22 @@
 
 h1 {
 
-  text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 68px #ff0000;
+    text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 68px #ff0000;
     color: #fff6a9;
-  text-align: center;
-  font-family: sans-serif;
-  animation: blink 8s infinite;
-  -webkit-animation: blink 6s infinite;
+    text-align: center;
+    font-family: sans-serif;
+    animation: blink 8s infinite;
+    -webkit-animation: blink 6s infinite;
 }
 
 body {
-  padding: 1vw;
-
-  align-items: center;
-  height: 100vh;
-  background: #0F2027;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 1vw;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background: #0F2027;
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
 
 }
 
